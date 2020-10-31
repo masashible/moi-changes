@@ -18,8 +18,10 @@
 ![image](https://user-images.githubusercontent.com/26806928/97775522-b1698080-1ba4-11eb-9f55-843655cd8884.png)
 
 ### 操作
+```
 #### 参考
-https://recooord.org/fadein-window-scroll/
+- https://recooord.org/fadein-window-scroll/
+```
 
 ![image](https://user-images.githubusercontent.com/26806928/97775786-b62f3400-1ba6-11eb-9dd8-babbfa4ad89c.png)
 - 外観 >> テーマエディタ >> style.css にアニメーション前後のクラスを作成(名前がぶつからないようbefore_floatなどとした)
@@ -45,12 +47,15 @@ https://recooord.org/fadein-window-scroll/
 <img width="376" alt="スクリーンショット 2020-10-31 18 41 10" src="https://user-images.githubusercontent.com/26806928/97776071-bf210500-1ba8-11eb-9c6e-8019f521f92b.png">
 - SPのメニューバーが開く速度をより遅く変更
 - オーバーレイでバックが灰色に変わるのが早すぎるのでグラデーションするように変更
+
 ### 操作
+```
 #### 参考
 - イージングの動きをいい感じにする
 https://cubic-bezier.com/#.57,.17,.54,.92
 - オーバーレイの色変更をゆっくりにする
 https://qiita.com/gonshi_com/items/4ae066ef4bea6d519854
+```
 
 - メニューの開閉自体はテーマに実装されているものだったので変数をいじった。上のイージングのサイトを使うといい感じに調整できる。
 ![image](https://user-images.githubusercontent.com/26806928/97776201-7e75bb80-1ba9-11eb-9d9e-da111a11af56.png)
