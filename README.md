@@ -41,3 +41,21 @@ https://recooord.org/fadein-window-scroll/
   - 追加場所 外観 >> テーマエディタ >> js >> jscript.js
 
 ## メニューがゆっくり開く
+### 内容
+<img width="376" alt="スクリーンショット 2020-10-31 18 41 10" src="https://user-images.githubusercontent.com/26806928/97776071-bf210500-1ba8-11eb-9c6e-8019f521f92b.png">
+- SPのメニューバーが開く速度をより遅く変更
+- オーバーレイでバックが灰色に変わるのが早すぎるのでグラデーションするように変更
+### 操作
+#### 参考
+- イージングの動きをいい感じにする
+https://cubic-bezier.com/#.57,.17,.54,.92
+- オーバーレイの色変更をゆっくりにする
+https://qiita.com/gonshi_com/items/4ae066ef4bea6d519854
+
+- メニューの開閉自体はテーマに実装されているものだったので変数をいじった。上のイージングのサイトを使うといい感じに調整できる。
+![image](https://user-images.githubusercontent.com/26806928/97776201-7e75bb80-1ba9-11eb-9d9e-da111a11af56.png)
+- 変更場所 外観 >> テーマエディタ >> css >> responsive.css
+
+- オーバーレイに関しては、`display: none;` からのアニメーションなので `transition` を使わずにアニメーションを定義する。
+![image](https://user-images.githubusercontent.com/26806928/97776253-ea582400-1ba9-11eb-885a-99ff054ae44b.png)
+- 変更場所 外観 >> テーマエディタ >> css >> responsive.css
