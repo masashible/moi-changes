@@ -23,7 +23,13 @@ https://recooord.org/fadein-window-scroll/
 
 ![image](https://user-images.githubusercontent.com/26806928/97775786-b62f3400-1ba6-11eb-9dd8-babbfa4ad89c.png)
 - 外観 >> テーマエディタ >> style.css にアニメーション前後のクラスを作成(名前がぶつからないようbefore_floatなどとした)
+
+![image](https://user-images.githubusercontent.com/26806928/97775845-35246c80-1ba7-11eb-9e7d-e53af1157653.png)
 - ページ全体において `before_float` が画面内にきたら `after_float` を付与するスクリプトを追加。
+  - 追加場所 外観 >> テーマエディタ >> js >> jscript.js
+
+![image](https://user-images.githubusercontent.com/26806928/97775914-c562b180-1ba7-11eb-894c-12223c5de1e4.png)
+- フェードインさせたいブロックに対して `before_float` クラスをつけてあげるとふわっとする。
 
 ## ふわっと上がってくるアニメーション(トップページ)
 ## メニューがゆっくり開く
